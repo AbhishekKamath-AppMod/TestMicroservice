@@ -7,7 +7,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.niveus.controller", "com.niveus.entity", "com.niveus.service" })
+@ComponentScan(basePackages = { "com.niveus.controller", "com.niveus.entity", "com.niveus.service",
+		"com.niveus.model" })
 public class TestMicroserviceApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
